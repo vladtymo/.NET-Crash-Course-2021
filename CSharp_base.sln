@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_csharp_base", "CSharp_base\01_csharp_base.csproj", "{63C3F18B-BC23-4937-BB0D-7A9EA5D784D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_oop_classes", "02_oop_classes\02_oop_classes.csproj", "{C42B5275-1D08-48B7-9BEF-B2352A3C205B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_oop_classes", "02_oop_classes\02_oop_classes.csproj", "{C42B5275-1D08-48B7-9BEF-B2352A3C205B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_classes_props", "03_classes_props\03_classes_props.csproj", "{FAD846B7-BBF9-432C-AC00-06838442A25A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C42B5275-1D08-48B7-9BEF-B2352A3C205B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C42B5275-1D08-48B7-9BEF-B2352A3C205B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C42B5275-1D08-48B7-9BEF-B2352A3C205B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD846B7-BBF9-432C-AC00-06838442A25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD846B7-BBF9-432C-AC00-06838442A25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD846B7-BBF9-432C-AC00-06838442A25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD846B7-BBF9-432C-AC00-06838442A25A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
