@@ -38,7 +38,7 @@ namespace _03_classes_props
 
         //private string firstName;
         //public string FirstName { get => firstName; set => firstName = value; }
-
+       
         // Auto-property (snippet: prop)
         public string FirstName { get; set; }
         public string LastName { get; set; }
