@@ -118,7 +118,6 @@ namespace _05_inheritance
             monitor.SwitchPower();
             monitor.PrintInfo();
             monitor.DisplayPicture();
-           
 
             TV tv = new TV("Samsumg", "2330x1750", 75, 32);
 

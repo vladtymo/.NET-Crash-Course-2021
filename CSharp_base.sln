@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_classes_props", "03_clas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_operator_overloading", "04_operator_overloading\04_operator_overloading.csproj", "{48A069BD-4126-48C3-BCA0-F093DD816B3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_inheritance", "05_inheritance\05_inheritance.csproj", "{C7436AFE-A19F-4B8D-A7AD-C00B05D144DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_inheritance", "05_inheritance\05_inheritance.csproj", "{C7436AFE-A19F-4B8D-A7AD-C00B05D144DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_polymorphism", "06_polymorphism\06_polymorphism.csproj", "{F829087F-5590-43D5-A16C-33541D7E55D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C7436AFE-A19F-4B8D-A7AD-C00B05D144DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7436AFE-A19F-4B8D-A7AD-C00B05D144DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7436AFE-A19F-4B8D-A7AD-C00B05D144DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F829087F-5590-43D5-A16C-33541D7E55D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F829087F-5590-43D5-A16C-33541D7E55D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F829087F-5590-43D5-A16C-33541D7E55D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F829087F-5590-43D5-A16C-33541D7E55D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
