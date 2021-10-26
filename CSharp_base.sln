@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_system_interfaces", "08_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_delegates", "09_delegates\09_delegates.csproj", "{3F27D1FA-EDAA-4CF0-B7DD-D5FCB92FC6E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_multicast_delegate", "10_multicast_delegate\10_multicast_delegate.csproj", "{1DBB6894-B867-46F9-AD35-D87C63A760DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_multicast_delegate", "10_multicast_delegate\10_multicast_delegate.csproj", "{1DBB6894-B867-46F9-AD35-D87C63A760DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_events", "11_events\11_events.csproj", "{CB0A97F6-1513-4DAC-BE3C-24CA4DB446A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_events", "11_events\11_events.csproj", "{CB0A97F6-1513-4DAC-BE3C-24CA4DB446A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_collections", "12_collections\12_collections.csproj", "{19057019-3E3E-44AF-938A-C41C82C2B609}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{CB0A97F6-1513-4DAC-BE3C-24CA4DB446A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB0A97F6-1513-4DAC-BE3C-24CA4DB446A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB0A97F6-1513-4DAC-BE3C-24CA4DB446A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19057019-3E3E-44AF-938A-C41C82C2B609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19057019-3E3E-44AF-938A-C41C82C2B609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19057019-3E3E-44AF-938A-C41C82C2B609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19057019-3E3E-44AF-938A-C41C82C2B609}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
