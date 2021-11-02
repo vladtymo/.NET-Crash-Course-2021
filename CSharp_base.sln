@@ -31,7 +31,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C_Sharp_Base", "C_Sharp_Bas
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFramework", "EntityFramework", "{C561BC87-E28E-458D-8083-1D81565145BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_ef_code_first", "01_ef_code_first\01_ef_code_first.csproj", "{1FE740C5-8F2B-41EC-B318-BF260FBCAEEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_ef_code_first", "01_ef_code_first\01_ef_code_first.csproj", "{1FE740C5-8F2B-41EC-B318-BF260FBCAEEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ef_relations", "02_ef_relations\02_ef_relations.csproj", "{C4025903-75AE-4F24-A9DD-EA58F1A36FF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{1FE740C5-8F2B-41EC-B318-BF260FBCAEEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FE740C5-8F2B-41EC-B318-BF260FBCAEEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FE740C5-8F2B-41EC-B318-BF260FBCAEEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4025903-75AE-4F24-A9DD-EA58F1A36FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4025903-75AE-4F24-A9DD-EA58F1A36FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4025903-75AE-4F24-A9DD-EA58F1A36FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4025903-75AE-4F24-A9DD-EA58F1A36FF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{CB0A97F6-1513-4DAC-BE3C-24CA4DB446A3} = {6C474D48-AACB-4BDE-A697-7DB961E335BE}
 		{19057019-3E3E-44AF-938A-C41C82C2B609} = {6C474D48-AACB-4BDE-A697-7DB961E335BE}
 		{1FE740C5-8F2B-41EC-B318-BF260FBCAEEC} = {C561BC87-E28E-458D-8083-1D81565145BA}
+		{C4025903-75AE-4F24-A9DD-EA58F1A36FF0} = {C561BC87-E28E-458D-8083-1D81565145BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {393D1C2E-0709-4010-B29A-774664CBDED3}
