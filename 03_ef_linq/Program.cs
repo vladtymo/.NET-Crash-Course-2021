@@ -45,8 +45,8 @@ namespace _03_ef_linq
             //res = db.Students.OrderByDescending(s => s.AverageMark);
             //res = db.Students.OrderByDescending(s => s.AverageMark).Take(3);
 
-            ShowStudentsWithGroups(res.ToList());
-            
+            //ShowStudentsWithGroups(res.ToList());
+
             // Mapping
             //var names = db.Students.Where(s => s.AverageMark >= 10).Select(s => s.FullName);
 
@@ -55,19 +55,45 @@ namespace _03_ef_linq
             //res = db.Students.Where(s => s.GroupId == 3).Count());
             //res = db.Students.Count(s => s.AverageMark < 7);
             //var res = db.Students.Where(s => s.Group.Name == "Jabbersphere").Average(s => s.AverageMark);
-            
+
             //Console.WriteLine("Count: " + res);
 
-            // Grouping
-            var groups  = db.Students.ToList().GroupBy(s => s.GroupId);
-            foreach (var group in groups)
+            db.Students.Add(new Student()
             {
-                Console.WriteLine($"--------- {group.Key}: {group.Count()} ----------");
-                foreach (var s in group)
-                {
-                    Console.WriteLine(s.FullName);
-                }
-            }
+                Id = 100,
+                FirstName = "Oleg",
+                LastName = "Super",
+                AverageMark = 8.9F,
+                GroupId = 1
+            });
+            //db.SaveChanges();
+
+            // Searching
+            Student st = db.Students.Find(100); // include local entities
+            st = db.Students.Where(s => s.Id == 100).First();          // throw an exception if doesn not exists
+            st = db.Students.Where(s => s.Id == 100).FirstOrDefault(); // return null if doesn not exists
+            
+            st = db.Students.Where(s => s.Id == 3).Single();
+            st = db.Students.Where(s => s.Id == 3).SingleOrDefault();
+
+            if (st == null)
+                Console.WriteLine("Not found!");
+            else
+                Console.WriteLine($"Student: {st.FullName}");
+
+            // Check existing
+            bool isExists = db.Students.Any(s => s.AverageMark < 7);
+
+            // Grouping
+            //var groups  = db.Students.ToList().GroupBy(s => s.GroupId);
+            //foreach (var group in groups)
+            //{
+            //    Console.WriteLine($"--------- {group.Key}: {group.Count()} ----------");
+            //    foreach (var s in group)
+            //    {
+            //        Console.WriteLine(s.FullName);
+            //    }
+            //}
         }
         static void ShowStudentsWithGroups(IEnumerable<Student> students)
         {
