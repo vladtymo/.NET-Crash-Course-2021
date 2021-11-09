@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace _03_ef_linq
 {
-    class AcademyDb : DbContext
+    public class AcademyDb : DbContext
     {
         public AcademyDb()
         {

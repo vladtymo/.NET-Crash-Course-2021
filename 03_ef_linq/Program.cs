@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace _03_ef_linq
 {
-    class AcademyManager
+    internal class AcademyManager
     {
         private AcademyDb context;
         public AcademyManager()
