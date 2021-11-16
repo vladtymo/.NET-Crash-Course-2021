@@ -58,7 +58,7 @@ namespace _05_tpl_task
             //Console.WriteLine("Result: " + res);
 
             TestAsyncMethod();
-
+            
             Console.WriteLine("End the main thread!");
             Console.ReadKey(); // pause
         }
